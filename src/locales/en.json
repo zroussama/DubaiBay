@@ -1,0 +1,15 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "contact": "Contact",
+    "becomeDistributor": "Become a Distributor"
+  },
+  "footer": {
+    "companyName": "Dubai Imports",
+    "tagline": "Bringing the best of Morocco to Dubai",
+    "contactUs": "Contact Us",
+    "followUs": "Follow Us"
+  }
+}

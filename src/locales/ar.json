@@ -1,0 +1,15 @@
+{
+  "header": {
+    "home": "الرئيسية",
+    "about": "عن الشركة",
+    "products": "المنتجات",
+    "contact": "اتصل بنا",
+    "becomeDistributor": "كن موزعًا"
+  },
+  "footer": {
+    "companyName": "استيراد دبي",
+    "tagline": "نجلب أفضل ما في المغرب إلى دبي",
+    "contactUs": "اتصل بنا",
+    "followUs": "تابعنا"
+  }
+}
