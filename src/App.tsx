@@ -9,7 +9,7 @@ import ProductsPage from './pages/ProductsPage';
 import ContactPage from './pages/ContactPage';
 import DistributorPage from './pages/DistributorPage';
 import CallNowButton from './components/CallNowButton';
-import LanguageSwitcher from './components/LanguageSwitcher';
+import NewsletterSubscription from './components/NewsletterSubscripption';
 
 function App() {
   const { i18n } = useTranslation();
@@ -18,7 +18,6 @@ function App() {
     <Router>
       <div className={`flex flex-col min-h-screen ${i18n.language === 'ar' ? 'rtl' : 'ltr'}`}>
         <Header />
-        <LanguageSwitcher />
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<HomePage />} />
@@ -26,7 +25,8 @@ function App() {
             <Route path="/products" element={<ProductsPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/become-distributor" element={<DistributorPage />} />
-          </Routes>
+            </Routes>
+          <NewsletterSubscription /> {/* Use the new component */}
         </main>
         <Footer />
         <CallNowButton />
