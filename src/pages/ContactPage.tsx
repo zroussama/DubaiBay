@@ -4,13 +4,13 @@ import { MapPin, Phone, Mail, Clock } from 'lucide-react';
 const ContactPage: React.FC = () => {
   return (
     <div className="bg-gray-100 min-h-screen py-12">
-      <div className="container mx-auto px-4">
-        <h1 className="text-4xl font-bold mb-8 text-center">Contact Us</h1>
+      <div className="container mt-6 mx-auto px-4">
+        <h1 className="text-4xl font-bold mb-8 text-blue-900 text-center">Contact Us</h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Contact Form */}
           <div className="bg-white rounded-lg shadow-md p-6">
-            <h2 className="text-2xl font-semibold mb-4">Send us a message</h2>
+            <h2 className="text-2xl font-semibold text-blue-900 mb-4">Send us a message</h2>
             <form>
               <div className="mb-4">
                 <label htmlFor="name" className="block text-gray-700 font-bold mb-2">Name</label>
@@ -41,7 +41,7 @@ const ContactPage: React.FC = () => {
           {/* Contact Information */}
           <div>
             <div className="bg-white rounded-lg shadow-md p-6 mb-8">
-              <h2 className="text-2xl font-semibold mb-4">Contact Information</h2>
+              <h2 className="text-2xl text-blue-900 font-semibold mb-4">Contact Information</h2>
               <ul className="space-y-4">
                 <li className="flex items-center">
                   <MapPin className="text-blue-600 mr-2" />
@@ -89,7 +89,7 @@ const ContactPage: React.FC = () => {
 
         {/* FAQ Section */}
         <div className="mt-12">
-          <h2 className="text-3xl font-bold mb-6 text-center">Frequently Asked Questions</h2>
+          <h2 className="text-3xl font-bold mb-6 text-blue-900 text-center">Frequently Asked Questions</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               { q: "What are your shipping rates?", a: "Shipping rates vary depending on the destination and order size. Please contact our sales team for a quote." },

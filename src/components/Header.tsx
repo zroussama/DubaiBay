@@ -41,7 +41,10 @@ const Header: React.FC = () => {
       transition={{ duration: 0.35, ease: "easeInOut" }}
     >
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <Link to="/" className="text-2xl font-bold text-moroccan-blue">{t('header.brandName')}</Link>
+      <Link to="/" className="text-2xl font-bold text-moroccan-blue flex items-center">
+          <img src="/images/logo.png" alt={t('header.brandName')} className="w-8 h-8 mr-2" />
+          {t('header.brandName')}
+        </Link>
         <nav className="hidden md:flex space-x-6">
           <Link to="/" className="hover:text-moroccan-blue">{t('header.home')}</Link>
           <Link to="/about" className="hover:text-moroccan-blue">{t('header.about')}</Link>

@@ -23,8 +23,8 @@ const ProductsPage: React.FC = () => {
 
   return (
     <div className="bg-gray-100 min-h-screen py-12">
-      <div className="container mx-auto px-4">
-        <h1 className="text-4xl font-bold mb-8 text-center">Our Products</h1>
+      <div className="container mt-6 mx-auto px-4">
+        <h1 className="text-4xl font-bold mb-8 text-blue-900 text-center">Our Products</h1>
 
         {/* Search and Filter */}
         <div className="mb-8 flex flex-col md:flex-row justify-between items-center">
@@ -92,7 +92,7 @@ const ProductsPage: React.FC = () => {
 
         {/* Coming Soon Section */}
         <div className="mt-16">
-          <h2 className="text-3xl font-bold mb-8 text-center">Coming Soon</h2>
+          <h2 className="text-3xl font-bold mb-8 text-blue-900 text-center">Coming Soon</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <img src="https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Turkish Products" className="w-full h-48 object-cover" />
