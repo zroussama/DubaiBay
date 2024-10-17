@@ -26,7 +26,7 @@ function App() {
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/become-distributor" element={<DistributorPage />} />
             </Routes>
-          <NewsletterSubscription /> {/* Use the new component */}
+          <NewsletterSubscription />
         </main>
         <Footer />
         <CallNowButton />
